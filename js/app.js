@@ -22,12 +22,6 @@ function addItem() {
         anchor.classList.add('menu__link');
         anchor.classList.add('navbar__menu');
 
-        //event on clicking the anchor item using scroll into view
-        anchor.addEventListener('click', function() {
-            let sec = document.getElementById('link');
-            sec.scrollIntoView();
-        })
-
 
         //appending children
         li.appendChild(anchor);
